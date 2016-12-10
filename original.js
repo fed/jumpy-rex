@@ -2698,3 +2698,6 @@ Horizon.prototype = {
   }
 };
 })();
+
+// Instantiate and start the game
+new Runner('.interstitial-wrapper');

@@ -4,12 +4,17 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>Dinosaur</title>
-  <link rel="stylesheet" href="/build/bundle.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body id="t" class="offline">
+  <div id="main-frame-error" class="interstitial-wrapper">
+    <div id="main-content">
+    </div>
+  </div>
+
   <div id="offline-resources">
-    <img id="offline-resources-1x" src="assets/default_100_percent/offline/100-offline-sprite.png">
-    <img id="offline-resources-2x" src="assets/default_200_percent/offline/200-offline-sprite.png">
+    <img id="offline-resources-1x" src="assets/images/100-offline-sprite.png">
+    <img id="offline-resources-2x" src="assets/images/200-offline-sprite.png">
 
     <template id="audio-resources">
       <audio id="offline-sound-press" src="assets/sounds/button-press.mp3"></audio>
@@ -18,6 +23,6 @@
     </template>
   </div>
 
-  <script src="/build/bundle.js"></script>
+  <script src="/original.js"></script>
 </body>
 </html>
