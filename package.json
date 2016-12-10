@@ -1,0 +1,27 @@
+{
+  "name": "dinosaur",
+  "version": "0.0.0",
+  "description": "Dinosaur",
+  "main": "index.html",
+  "devDependencies": {
+    "rollup": "^0.36.4"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fknussel/bacon-dinosaur.git"
+  },
+  "keywords": [
+    "bacon.js",
+    "dinosaur"
+  ],
+  "author": "Federico Knüssel <fknussel@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fknussel/bacon-dinosaur/issues"
+  },
+  "homepage": "https://github.com/fknussel/bacon-dinosaur#readme"
+}
